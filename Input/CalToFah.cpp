@@ -5,5 +5,6 @@ int main()
     float temp;
     cout<<"Enter temp: ";
     cin>>temp;
-    cout<<"Temperature from Calcius to Fahrenheit is: "<<(temp+273);
+    float Fahreheit = (temp*9/5)+32;
+    cout<<"Temperature from Calcius to Fahrenheit is: "<<Fahreheit<<"F";
 }
